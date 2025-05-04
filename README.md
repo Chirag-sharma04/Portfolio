@@ -1,4 +1,4 @@
-## My Personal Portfolio Website
+# My Personal Portfolio Website
 
 This is my personal portfolio built with **Next.js** and **React.js**. The portfolio showcases my skills, projects, and experience as a developer. It is built with modern technologies like Next.js for server-side rendering and React.js for creating dynamic UI components.
 
@@ -22,10 +22,10 @@ This is my personal portfolio built with **Next.js** and **React.js**. The portf
 
 ## Configuration
 
-# Tailwind CSS
+### 1. Tailwind CSS
 Tailwind CSS is pre-configured for use in this project. You can modify the tailwind.config.js file to customize the theme, extend utilities, or add plugins.
 
-# ESLint & Prettier
+### 2. ESLint & Prettier
 The project is configured with ESLint for linting and Prettier for automatic code formatting. The .eslintrc.json and .prettierrc files contain the configurations.
 
 To run ESLint and Prettier, use:
@@ -36,4 +36,4 @@ To run ESLint and Prettier, use:
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
