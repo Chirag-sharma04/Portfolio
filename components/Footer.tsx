@@ -45,7 +45,7 @@ const Footer: React.FC<Props> = ({ noPadding = false }) => {
 const socialLinks = [
   {
     id: 1,
-    title: "Chirag's Github Profile",
+    title: "My Github Profile",
     link: "https://github.com/Chirag-sharma04",
     svg: (
       <svg
@@ -64,7 +64,7 @@ const socialLinks = [
   },
   {
     id: 2,
-    title: "Chirag's LinkedIn Profile",
+    title: "My LinkedIn Profile",
     link: "https://www.linkedin.com/in/chirag-sharma-4b05b22a9",
     svg: (
       <svg

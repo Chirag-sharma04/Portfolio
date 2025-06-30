@@ -122,7 +122,7 @@ const experienceInfo = [
   {
     id: 1,
     title: "Full Stack Developer Intern",
-    subTitle: "Sparklog Ventures LLP | January 2025 - Present",
+    subTitle: "Sparklog Ventures LLP | January 2025 - June 2025",
     list: [
       "Contributed to the development and maintenance of full-stack web applications using React, Node.js, and PostgreSQL. ",
       "Designed and implemented responsive user interfaces using Tailwind CSS and Material UI for enhanced user experience.",
