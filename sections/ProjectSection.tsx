@@ -10,8 +10,8 @@ import useScrollActive from "hooks/useScrollActive";
 
 import game from "public/projects/game.png"
 import currency_convert from "public/projects/currency_convert.png"
-import spotify from "public/projects/Spotify.png";
 import mapping from "public/projects/mind-mapping.png"
+import Task_Manager from "public/projects/Task_Manager.png"
 
 const ProjectSection: React.FC = () => {
   const { theme } = useTheme();
@@ -101,21 +101,21 @@ const projects = [
     bgColor: "bg-[#B4BEE0]",
   },
   {
-    title: "Spotify Replica",
-    type: "Frontend",
+    title: "Personal Task Manager",
+    type: "Full-Stack",
     image: (
       <Image
-        src={spotify}
+        src={Task_Manager}
         sizes="100vw"
         fill
-        alt="Haru Fashion App"
+        alt="Personal Task Manager"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "A responsive Spotify clone UI built with HTML, CSS, and JavaScript, replicating the look and feel of the original Spotify web player. It features interactive navigation, playlist sections, and a modern music app layout.",
-    tags: ["HTML","CSS"],
-    liveUrl: "https://spotify-replica-omega.vercel.app/",
-    codeUrl: "https://github.com/Chirag-sharma04/Spotify-Replicate",
+    desc: "The Task Manager is a MERN stack web app that lets users manage tasks with secure JWT-based authentication. It uses React.js and Tailwind CSS on the frontend, Node.js, Express.js, and MongoDB on the backend, with Mongoose for database handling and Axios for API communication.",
+    tags: ["React.js","Tailwind CSS","Axios","Node.js","Express.js","MongoDB"],
+    liveUrl: "https://task-manager-smoky-five.vercel.app/",
+    codeUrl: "https://github.com/Chirag-sharma04/Task-Manager",
     bgColor: "bg-[#A6CECE]",
   },
   {
