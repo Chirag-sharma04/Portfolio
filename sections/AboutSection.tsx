@@ -255,7 +255,7 @@ const skillGroups = [
   },
   {
     title: "Tools",
-    skills: ["Git", "Vercel", "Netlify","Github Actions","VS Code"],
+    skills: ["Git", "Vercel", "Netlify","Github Actions","VS Code","Docker"],
   },
 ];
 
