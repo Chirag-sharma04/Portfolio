@@ -1,6 +1,5 @@
 # Chirag Sharma — Portfolio
 
-![portfolio-preview](public/preview.png)  
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue) ![vercel](https://img.shields.io/github/deployments/chiragsharma/portfolio/production?label=vercel&logo=vercel&logoColor=white)
 
 This is my personal **portfolio website** built with Next.js and TypeScript.  
@@ -28,20 +27,10 @@ The site is fully responsive, SEO-friendly, and supports both **light & dark the
 **Styling** → [Tailwind CSS](https://tailwindcss.com/)  
 **Animations** → [Framer Motion](https://www.framer.com/motion/) / [GSAP](https://greensock.com/)  
 **State Management** → [Context API](https://react.dev/reference/react/Context) / [Zustand](https://zustand-demo.pmnd.rs/)  
-**Content** → Markdown / MDX  
 **Deployment** → [Vercel](https://vercel.com/)  
 
 ---
 
-## 📊 Lighthouse Score
-
-<p align="center">
-  <a href="https://pagespeed.web.dev/">
-    <img width="710" alt="Portfolio Website Lighthouse Score" src="public/lighthouse-result.svg">
-  </a>
-</p>
-
----
 ## Running Locally
 
 Clone the project
