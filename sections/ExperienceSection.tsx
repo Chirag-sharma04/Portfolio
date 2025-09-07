@@ -129,6 +129,16 @@ const experienceInfo = [
       "Collaborated with development and design teams to deliver high-quality features in an agile environment.",
     ],
   },
+  {
+    id: 2,
+    title: "Full Stack Developer",
+    subTitle: "Digital Mongers | July 2025 - Present",
+    list: [
+      "Developing full-stack web applications using MERN stack.",
+      "Integrating APIs,collaborating with teams, and working with tools like Docker, Redis,PostgreSQL and Nest.js.",
+      "Implemented reusable UI components and maintained design consistency across projects.",
+    ],
+  },
   
 ]
 
