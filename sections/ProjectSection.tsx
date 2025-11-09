@@ -8,7 +8,7 @@ import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import game from "public/projects/game.png"
+import dobby_mall from "public/projects/dobby_mall.png"
 import currency_convert from "public/projects/currency_convert.png"
 import mapping from "public/projects/mind-mapping.png"
 import Task_Manager from "public/projects/Task_Manager.png"
@@ -65,24 +65,6 @@ const ProjectSection: React.FC = () => {
 
 const projects = [
   {
-    title: "Stone-Paper-Scissors",
-    type: "Frontend",
-    image: (
-      <Image
-        src={game}
-        sizes="100vw"
-        fill
-        alt="Game"
-        className="transition-transform duration-500 hover:scale-110 object-cover"
-      />
-    ),
-    desc: "A simple Stone-Paper-Scissors game built with HTML, CSS, and JavaScript. Users can play against the computer with real-time score tracking and interactive UI.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://stone-paper-scissor-flame.vercel.app/",
-    codeUrl: "https://github.com/Chirag-sharma04/Stone-paper-scissor",
-    bgColor: "bg-[#9FD0E3]"
-  },
-  {
     title: "Currency Convertor",
     type: "Frontend",
     image: (
@@ -113,7 +95,7 @@ const projects = [
       />
     ),
     desc: "The Task Manager is a MERN stack web app that lets users manage tasks with secure JWT-based authentication. It uses React.js and Tailwind CSS on the frontend, Node.js, Express.js, and MongoDB on the backend, with Mongoose for database handling and Axios for API communication.",
-    tags: ["React.js","Tailwind CSS","Axios","Node.js","Express.js","MongoDB"],
+    tags: ["Nextjs","React.js","Tailwind CSS","Axios","Node.js","Express.js","MongoDB"],
     liveUrl: "https://task-manager-smoky-five.vercel.app/",
     codeUrl: "https://github.com/Chirag-sharma04/Task-Manager",
     bgColor: "bg-[#A6CECE]",
@@ -135,6 +117,36 @@ const projects = [
     liveUrl: "https://yt2mindmap-v2.vercel.app/",
     codeUrl: "https://github.com/Chirag-sharma04/yt2mindmap-v2",
     bgColor: "bg-[#C5E4E7]",
+  },
+  {
+    title: "Dobby Mall - Multi Vendor E-commerce Platform",
+    type: "Full-Stack",
+    image: (
+      <Image
+        src={dobby_mall}
+        sizes="100vw"
+        fill
+        alt="E-commerce Platform"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "A scalable multi-vendor e-commerce platform built for real-world use cases. It enables vendors to manage stores, products, and orders, while customers can browse, purchase, and track their orders with secure payment integration and role-based authentication.",
+    tags: [
+      "Next.js",
+      "Rectjs",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "EJS",
+      "REST API",
+      "JWT Authentication",
+    ],
+    liveUrl: "https://test-dobby.vercel.app/",
+    codeUrl: "",
+    bgColor: "bg-[#9FD0E3]"
   },
 ];
 
